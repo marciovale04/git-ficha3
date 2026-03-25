@@ -1,0 +1,18 @@
+openapi: "3.0.3"
+info:
+  title: API de Exemplo da Ficha 3
+  description: Definição exemplificativa de uma API em OpenAPI 3 para a ficha 3 da UC de Programação III do curso de Multimédia do ISMT.
+  version: "1.0.0"
+  contact:
+    email: geral@ismt.pt
+
+servers:
+  - url: http://localhost:5000/api/v1
+    description: Servidor local
+
+paths:
+  /test:
+    get:
+      responses:
+        "200":
+          description: OK
